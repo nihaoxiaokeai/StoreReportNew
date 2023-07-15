@@ -1,0 +1,16 @@
+body {
+  background-color: #EEEEEE; 
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling : touch;
+}
+.reportDate {
+  background: #fff;
+  text-align: center;
+  padding: 10px 0;
+  color: #323232;
+  font-size: 15px;
+  border-top: 1px solid #f4f4f4;
+  font-weight: bold;
+}

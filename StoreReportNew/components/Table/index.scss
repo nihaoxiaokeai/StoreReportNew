@@ -1,0 +1,40 @@
+.tableWrap {
+  font-size: 12px;
+  border-radius: 6px;
+  margin: 10px;
+  overflow: hidden;
+}
+.left {
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 99;
+}
+.leftContent {
+  float: left;
+  width: 100px;
+  height: calc(100vh - 115px);
+  position: relative;
+  z-index: 99;
+}
+.right {
+  background-color: "blue";
+  overflow-x: scroll;
+}
+.rightContent {
+  height: calc(100vh - 115px);
+  position: relative;
+}
+.noData {
+  text-align: center;
+  margin: 5px 10px;
+  border-radius: 6px;
+  padding: 40% 0;
+  color: #90959A;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  .nodataTips {
+    margin: 5px;
+  }
+}
